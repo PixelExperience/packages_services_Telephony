@@ -31,7 +31,7 @@
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
   <string name="preferred_network_mode_evdo_only_choice">Ainult EvDo</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA v.a. EvDo</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA ilma EvDo-ta</string>
   <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
   <string name="preferred_network_mode_wcdma_only_choice">Ainult WCDMA</string>

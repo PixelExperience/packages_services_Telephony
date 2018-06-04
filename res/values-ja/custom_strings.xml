@@ -23,18 +23,18 @@
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMAのみ</string>
+  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
-  <string name="preferred_network_mode_global_choice">グローバル</string>
+  <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
-  <string name="preferred_network_mode_evdo_only_choice">EvDoのみ</string>
+  <string name="preferred_network_mode_evdo_only_choice">EvDo only</string>
   <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
-  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo自動</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA自動</string>
-  <string name="preferred_network_mode_wcdma_only_choice">WCDMAのみ</string>
-  <string name="preferred_network_mode_gsm_only_choice">GSMのみ</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA優先</string>
+  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
+  <string name="preferred_network_mode_wcdma_only_choice">WCDMA only</string>
+  <string name="preferred_network_mode_gsm_only_choice">GSM only</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferred</string>
 </resources>

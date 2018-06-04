@@ -14,6 +14,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings, preferred network modes -->
+  <string name="preferred_network_mode_td_scdma_lte_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/LTE/GSM/WCDMA/CDMA/EvDo</string>
+  <string name="preferred_network_mode_td_scdma_gsm_wcdma_cdma_evdo_choice">TD-SCDMA/GSM/WCDMA/CDMA/EvDo</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_lte_choice">टीडी-एससीडीएमए/जीएसएम/डब्ल्यूसीडीएमए/एलटीई</string>
   <string name="preferred_network_mode_td_scdma_wcdma_lte_choice">टीडी-एससीडीएम/डब्ल्यूसीडीएमए/एलटीई</string>
   <string name="preferred_network_mode_td_scdma_gsm_wcdma_choice">टीडी-एससीडीएम/जीएसएम/डब्ल्यूसीडीएमए</string>
