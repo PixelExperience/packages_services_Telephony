@@ -23,18 +23,18 @@
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
+  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA மட்டும்</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
-  <string name="preferred_network_mode_lte_choice">LTE</string>
+  <string name="preferred_network_mode_lte_choice">LTE மட்டும்</string>
   <string name="preferred_network_mode_global_choice">உலகளவு</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
-  <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
+  <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA மற்றும் LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
-  <string name="preferred_network_mode_evdo_only_choice">EvDo only</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
+  <string name="preferred_network_mode_evdo_only_choice">EvDo மட்டும்</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">EvDo தவிர்த்து, CDMA மட்டும்</string>
   <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo தானியக்கம்</string>
   <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA தானியக்கம்</string>
-  <string name="preferred_network_mode_wcdma_only_choice">WCDMA மட்டுமே</string>
-  <string name="preferred_network_mode_gsm_only_choice">GSM மட்டுமே</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA விரும்பப்பட்டது</string>
+  <string name="preferred_network_mode_wcdma_only_choice">WCDMA மட்டும்</string>
+  <string name="preferred_network_mode_gsm_only_choice">GSM மட்டும்</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM அல்லது WCDMA விரும்பப்படுகிறது</string>
 </resources>
