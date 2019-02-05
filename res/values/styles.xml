@@ -174,9 +174,8 @@
     </style>
 
     <style name="DialerAlertDialogTheme"
-        parent="@android:style/Theme.Material.Light.Dialog">
-        <item name="android:colorAccent">@color/dialer_theme_color</item>
-        <item name="android:textColor">?android:attr/textColorPrimaryInverseDisableOnly</item>
+        parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
     </style>
 
     <style name="NetworkOperatorsSettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings">
