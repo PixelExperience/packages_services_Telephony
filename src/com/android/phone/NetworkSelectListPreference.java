@@ -67,7 +67,7 @@ public class NetworkSelectListPreference extends ListPreference
         Preference.OnPreferenceChangeListener{
 
     private static final String LOG_TAG = "networkSelect";
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
 
     private static final int EVENT_NETWORK_SELECTION_DONE = 1;
     private static final int EVENT_NETWORK_SCAN_RESULTS = 2;
@@ -424,6 +424,8 @@ public class NetworkSelectListPreference extends ListPreference
                         networkTitle += " "
                                 + getContext().getResources().getString(R.string.forbidden_network);
                     }
+                    logd("Adding to networkEntriesList: " + networkTitle);
+                    logd("Adding to networkEntryValuesList: " + getOperatorNumeric(cellInfo));
                     networkEntriesList.add(networkTitle);
                     networkEntryValuesList.add(getOperatorNumeric(cellInfo));
                 }
