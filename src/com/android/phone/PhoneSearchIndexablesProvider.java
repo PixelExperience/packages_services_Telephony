@@ -57,7 +57,6 @@ public class PhoneSearchIndexablesProvider extends SearchIndexablesProvider {
 
     @Override
     public Cursor queryXmlResources(String[] projection) {
-        boolean isApkAvailable = PhoneUtils.isNetworkSettingsApkAvailable();
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
         final int count = INDEXABLE_RES.length;
         for (int n = 0; n < count; n++) {
@@ -67,14 +66,8 @@ public class PhoneSearchIndexablesProvider extends SearchIndexablesProvider {
             ref[COLUMN_INDEX_XML_RES_CLASS_NAME] = null;
             ref[COLUMN_INDEX_XML_RES_ICON_RESID] = INDEXABLE_RES[n].iconResId;
             ref[COLUMN_INDEX_XML_RES_INTENT_ACTION] = "android.intent.action.MAIN";
-            if (isApkAvailable) {
-                ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_PACKAGE] = "com.qualcomm.qti.networksetting";
-                ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_CLASS] =
-                        "com.qualcomm.qti.networksetting.MobileNetworkSettings";
-            } else {
-                ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_PACKAGE] = "com.android.phone";
-                ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_CLASS] = INDEXABLE_RES[n].className;
-            }
+            ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_PACKAGE] = "com.android.phone";
+            ref[COLUMN_INDEX_XML_RES_INTENT_TARGET_CLASS] = INDEXABLE_RES[n].className;
             cursor.addRow(ref);
         }
         return cursor;
