@@ -325,7 +325,7 @@ public class NetworkSelectListPreference extends ListPreference
         TelephonyManager telephonyManager = (TelephonyManager)
                 getContext().getSystemService(Context.TELEPHONY_SERVICE);
 
-        setSummary(telephonyManager.getNetworkOperatorName(mSubId));
+        setSummary(telephonyManager.getNetworkOperatorName());
 
         setOnPreferenceChangeListener(this);
     }
