@@ -44,5 +44,18 @@
         <item name="android:dialogCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
     </style>
 
+    <style name="DialerSettingsLight" parent="SettingsLight">
+        <!-- Action bar.-->
+        <item name="android:tint">@color/dialer_secondary_text_color</item>
+        <item name="android:windowBackground">@color/dialer_background_color</item>
+        <item name="android:actionModeBackground">@color/dialer_background_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Navigation bar.-->
+        <item name="android:navigationBarColor">@color/dialer_background_color</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:colorAccent">@color/dialer_theme_color</item>
+        <item name="android:dialogTheme">@style/DialerAlertDialogTheme</item>
+    </style>
+
 
 </resources>
