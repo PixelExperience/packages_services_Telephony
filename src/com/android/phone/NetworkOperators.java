@@ -323,7 +323,7 @@ public class NetworkOperators extends PreferenceCategory
 
     private void openAlternativeManualNetworkSelect() {
         Intent intent = new Intent(ACTION_ALTERNATIVE_MANUAL_NETWORK_SELECT);
-        intent.putExtra("sub_id", mPhoneId);
+        intent.putExtra("sub_id", mSubId);
         getContext().startActivity(intent);
     }
 
